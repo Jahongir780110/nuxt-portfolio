@@ -8,8 +8,8 @@
       being used by companies all over the world. On the other hand, the
       recently released Vue 3 brings us a faster, more capable library at our
       fingertips. This article aims to help clarify which version of Vue you
-      should start learning now. So if you’re wondering whether you should take
-      our Vue 2 or Vue 3 courses, keep reading.
+      should start learning now. So if you’re wondering whether you should start
+      with Vue 2 or Vue 3, keep reading.
     </div>
     <img
       src="~/static/blog-1.jpg"
