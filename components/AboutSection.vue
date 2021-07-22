@@ -21,7 +21,7 @@
           <div class="hex-photo"></div>
           <div class="photo-title">Who's this guy?</div>
           <div class="photo-desc">
-            I'm a Front-End Developer for ChowNow in Los Angeles, CA. I have
+            I'm a Front-End Developer for ProDVD in Tashkent, UZB. I have
             serious passion for UI effects, animations and creating intuitive,
             dynamic user experiences. <br />
             <span class="special" @click="scrollTo('contact')"

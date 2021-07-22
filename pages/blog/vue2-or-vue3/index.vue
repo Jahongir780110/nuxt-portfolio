@@ -20,7 +20,7 @@
       Not a simple answer
     </div>
     <div class="content mt-2">
-      The reason we’re taking the time to write this post is because the answer
+      The reason i'm taking the time to write this post is because the answer
       is: it depends. It depends on whether you’re on a team that is using Vue 2
       with no near-term plans for migrating to Vue 3. It depends on your
       timeline and whether your app requires dependencies that aren’t yet
@@ -34,8 +34,7 @@
       relevant with this cutting-edge technology. You’ll have access to all of
       the latest and greatest features of an entirely rewritten, more powerful
       and performant JavaScript framework. There’s a lot you can learn and
-      create with this new version, and we’ve been having fun recreating our old
-      Vue 2 courses and upgrading them to teach the new Vue 3 version.
+      create with this new version.
     </div>
     <div class="sub-heading mt-2">
       But… they’re very similar

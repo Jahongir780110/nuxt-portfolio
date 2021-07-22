@@ -2,7 +2,7 @@
   <div class="blog-wrapper">
     <nav class="navbar py-2" ref="nav">
       <ul class="navbar-nav">
-        <li class="nav-item mt-sm-0 mt-3">
+        <li class="nav-item">
           <nuxt-link to="/"><span class="nav-link">HOME</span></nuxt-link>
         </li>
       </ul>
@@ -23,6 +23,11 @@
   position: sticky;
   top: 0;
   z-index: 9999;
+}
+@media (max-width: 576px) {
+  .blog-wrapper .navbar {
+    padding: 0 30px;
+  }
 }
 .blog-wrapper .nav-link {
   color: white;
@@ -58,5 +63,23 @@
 .blog-wrapper .link {
   text-decoration: none;
   color: #39b982;
+}
+.blog-wrapper .code-example {
+  background-color: #171717;
+  border-radius: 10px;
+  padding: 8px;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: #c5c8c6;
+}
+.code-example .bluish {
+  color: #96cbfe;
+}
+.code-example .yellowish {
+  color: #ffffb6;
+}
+.code-example .greenish {
+  color: #a8ff60;
 }
 </style>

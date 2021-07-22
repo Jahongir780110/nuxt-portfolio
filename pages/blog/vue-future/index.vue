@@ -77,9 +77,11 @@
         >Teleport</a
       >
       component, which allows us to specify template HTML that we can send to
-      another part of the DOM. <br /><br />
-      This is useful for things like modals, which may need to be placed outside
-      of the body tag or outside the Vue app.
+      another part of the DOM. <br />
+      <div class="mt-2">
+        This is useful for things like modals, which may need to be placed
+        outside of the body tag or outside the Vue app.
+      </div>
     </div>
   </div>
 </template>

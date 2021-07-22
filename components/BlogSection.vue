@@ -34,9 +34,18 @@ export default {
           title: "Vue 3: The Future of Front End",
           date: "July 21, 2021",
           desc:
-            "Vue 3 is a milestone in the world of modern web development, bringing JavaScript developers an evolved set of tools to build more powerful and performant apps than ever before",
+            "Vue 3 is a milestone in the world of modern web development, bringing JavaScript developers an evolved set of tools to build more powerful and performant apps than ever before...",
           link: "/blog/vue-future",
           delay: 200
+        },
+        {
+          img: require("~/static/blog-3.jpg"),
+          title: "Vue 3 - What's New?",
+          date: "July 22, 2021",
+          desc:
+            "Vue.js 3 was released and it’s bringing a bunch of new and exciting features whilst being mostly backward compatible...",
+          link: "/blog/vue3-whats-new",
+          delay: 400
         }
       ]
     };
