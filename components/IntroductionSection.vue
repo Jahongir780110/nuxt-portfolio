@@ -3,7 +3,7 @@
     <div id="particle-canvas"></div>
     <div class="content">
       <span class="text">
-        Hello, I'm <span class="name">Jakhongir Ismoilov</span>. <br />
+        Hello, I'm <span class="name">Jahongir Ismoilov</span>. <br />
         I'm a full-stack web developer
       </span>
       <br />
