@@ -1,10 +1,4 @@
 export default {
-  router: {
-    base: "/new-portfolio/"
-  },
-  build: {
-    publicPath: "/assets/"
-  },
   head: {
     title: "Portfolio",
     htmlAttrs: {
