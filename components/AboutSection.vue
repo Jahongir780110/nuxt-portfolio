@@ -16,9 +16,11 @@
         <div
           data-aos="slide-right"
           data-aos-duration="500"
-          class="col-lg-6 col-11 text-center mx-auto"
+          class="col-lg-5 col-11 text-center mx-auto"
         >
-          <div class="hex-photo"></div>
+          <div class="hex-photo">
+            <img src="~/static/profile-pic.png" alt="Profile picture" />
+          </div>
           <div class="photo-title">Who's this guy?</div>
           <div class="photo-desc">
             I'm a Front-End Developer for ProDVD in Tashkent, UZB. I have
@@ -32,7 +34,7 @@
         <div
           data-aos="slide-left"
           data-aos-duration="500"
-          class="col-lg-6 col-11 mt-lg-0 mt-5 mx-auto"
+          class="col-lg-7 col-11 mt-lg-0 mt-5 mx-auto"
         >
           <skill-bar
             v-for="bar in bars"
@@ -121,13 +123,23 @@ export default {
 .me {
   margin-top: 80px;
 }
-.hex-photo {
+/* .hex-photo {
   height: 220px;
   width: 260px;
   position: relative;
   margin: auto;
-}
-.hex-photo::after {
+} */
+/* .hex-photo .photo {
+  background-color: red;
+  width: 100%;
+  height: 100%;
+  background-image: url("~/static/profile-pic.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: 999999999999;
+  position: absolute;
+} */
+/* .hex-photo::after {
   content: "";
   width: 100%;
   border-top: 110px solid #04c2c9;
@@ -145,7 +157,7 @@ export default {
   border-bottom: 110px solid #04c2c9;
   border-left: 55px solid transparent;
   border-right: 55px solid transparent;
-}
+} */
 .me .photo-title {
   margin-top: 16px;
   font-size: 24px;
