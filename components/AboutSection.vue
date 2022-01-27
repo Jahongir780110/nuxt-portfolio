@@ -19,7 +19,7 @@
           class="col-lg-5 col-11 text-center mx-auto"
         >
           <div class="hex-photo">
-            <img src="~/static/profile-pic.png" alt="Profile picture" />
+            <img src="~/static/profile_pic.png" alt="Profile picture" />
           </div>
           <div class="photo-title">Who's this guy?</div>
           <div class="photo-desc">
