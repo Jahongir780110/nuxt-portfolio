@@ -3,18 +3,18 @@
     <div id="particle-canvas"></div>
     <div class="content">
       <span class="text">
-        Hello, I'm <span class="name">Jahongir Ismoilov</span>. <br />
-        I'm a full-stack web developer
+        Hi, I'm <span class="name">Jakhongir Ismoilov</span>. <br />
+        I'm a Junior JavaScript Developer
       </span>
       <br />
       <button
         class="button mt-4 d-flex align-items-baseline justify-content-center mx-auto"
         @click="scrollTo('about')"
       >
-        View my work
-        <span class="material-icons arrow ms-3">
+        About Myself
+        <i class="material-icons arrow ms-3">
           arrow_forward
-        </span>
+        </i>
       </button>
     </div>
   </div>

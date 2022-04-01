@@ -10,19 +10,6 @@
   </div>
 </template>
 
-<script>
-import AOS from "aos";
-import "aos/dist/aos.css";
-export default {
-  name: "MainPage",
-  mounted() {
-    AOS.init({
-      once: false
-    });
-  }
-};
-</script>
-
 <style scoped>
 .wrapper {
   width: 100%;

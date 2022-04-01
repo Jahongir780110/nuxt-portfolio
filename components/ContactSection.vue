@@ -42,7 +42,7 @@
           rows="6"
           placeholder="Your Message"
         ></textarea>
-        <button class="button" type="submit">SUBMIT</button>
+        <button class="button" type="submit">SEND</button>
       </form>
     </div>
   </div>

@@ -63,7 +63,7 @@ export default {
   }
 }
 .blogs {
-  margin-top: 100px;
+  margin-top: 90px;
   color: #444649;
 }
 .heading {

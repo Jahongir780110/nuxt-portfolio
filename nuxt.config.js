@@ -1,6 +1,6 @@
 export default {
   head: {
-    title: "Portfolio",
+    title: "Jakhongir Ismoilov",
     htmlAttrs: {
       lang: "en"
     },
@@ -45,11 +45,6 @@ export default {
         integrity:
           "sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM",
         crossorigin: "anonymous"
-      },
-      {
-        src: "https://code.jquery.com/jquery-3.6.0.js",
-        integrity: "sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=",
-        crossorigin: "anonymous"
       }
     ]
   },
@@ -58,7 +53,7 @@ export default {
   css: ["~/assets/css/main.css"],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: [{ src: "~/plugins/aos.js", mode: "client" }],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,

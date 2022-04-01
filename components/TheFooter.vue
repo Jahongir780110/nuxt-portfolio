@@ -1,12 +1,16 @@
 <template>
   <div class="footer text-white">
     <span class="elevator" @click="scrollTop">
-      <i class="fas fa-angle-double-up"></i>
+      <i class="material-icons-outlined"
+        ><span class="material-icons-outlined">
+          keyboard_double_arrow_up
+        </span></i
+      >
     </span>
     <div class="social-media">
       <a
         data-aos="flip-left"
-        href="https://www.linkedin.cn/in/jahongir-ismoilov-9039a5203/"
+        href="https://www.linkedin.com/in/jakhongir-ismoilov-9039a5203/"
         target="blank"
         class="social-btn"
       >
@@ -33,7 +37,7 @@
       <a
         data-aos="flip-left"
         data-aos-delay="300"
-        href="https://t.me/liv780110"
+        href="https://t.me/jakhongir_0305"
         target="blank"
         class="social-btn"
       >
@@ -41,7 +45,7 @@
       </a>
     </div>
     <div class="copyright mt-4">
-      Jakhongir Ismoilov <span class="highlight">&copy;2021</span>
+      Jakhongir Ismoilov <span class="highlight">&copy;2022</span>
     </div>
   </div>
 </template>
@@ -63,6 +67,28 @@ export default {
   padding: 70px 0 50px 0;
   position: relative;
   text-align: center;
+}
+.elevator {
+  background: #e31b6d;
+  cursor: pointer;
+  width: 47px;
+  height: 50px;
+  position: absolute;
+  right: 0;
+  top: -25px;
+  left: 0;
+  line-height: 24px;
+  margin: 0 auto;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.elevator span {
+  font-size: 32px;
+}
+.elevator:hover {
+  background: #fb1f79;
 }
 .social-media {
   display: flex;
@@ -104,26 +130,6 @@ export default {
 }
 .copyright .highlight {
   color: #e31b6d;
-}
-.elevator {
-  background: #e31b6d;
-  cursor: pointer;
-  font-size: 32px;
-  width: 47px;
-  height: 50px;
-  position: absolute;
-  right: 0;
-  top: -25px;
-  left: 0;
-  line-height: 24px;
-  margin: 0 auto;
-  transition: 0.3s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.elevator:hover {
-  background: #fb1f79;
 }
 @keyframes animate {
   0% {

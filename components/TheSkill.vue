@@ -9,14 +9,14 @@
       :data-aos-delay="skill.delay"
       class="hexagon"
     >
-      <span
+      <i
         class="icon"
         :class="
           skill.icon.isOutlined ? 'material-icons-outlined' : 'material-icons'
         "
       >
         {{ skill.icon.name }}
-      </span>
+      </i>
     </div>
     <br />
     <div data-aos="fade" data-aos-duration="500" :data-aos-delay="skill.delay">

@@ -23,12 +23,10 @@
           </div>
           <div class="photo-title">Who's this guy?</div>
           <div class="photo-desc">
-            I'm a Front-End Developer for ProDVD in Tashkent, UZB. I have
-            serious passion for UI effects, animations and creating intuitive,
-            dynamic user experiences. <br />
-            <span class="special" @click="scrollTo('contact')"
-              >Let's make something special</span
-            >
+            Junior Frontend Developer with 1+ year of working experience in
+            Frontend Development. Skilled mostly in JavaScript and Vue.
+            Energetic and eager to learn new skills. Clean coding is my
+            priority.
           </div>
         </div>
         <div
@@ -57,7 +55,8 @@ export default {
         {
           icon: { name: "speed", isOutlined: false },
           title: "Fast",
-          desc: "Fast load times and lag free interaction, my highest priority",
+          desc:
+            "Fast load times and lag free interaction are my highest priority.",
           delay: 0
         },
         {
@@ -69,15 +68,15 @@ export default {
         {
           icon: { name: "lightbulb", isOutlined: true },
           title: "Intuitive",
-          desc: "Strong preference for easy to use, intuitive UX/UI.",
+          desc: "Strong preference for easy to use, intuitive UI/UX.",
           mt: true,
           delay: 400
         },
         {
-          icon: { name: "published_with_changes", isOutlined: true },
-          title: "Dynamic",
+          icon: { name: "code", isOutlined: true },
+          title: "Clean Code",
           desc:
-            "Websites don't have to be static, I love making pages come to life.",
+            "Clean coding might seem slow at first, but belive me it will save your time a lot in the end.",
           mt: true,
           delay: 600
         }
@@ -123,41 +122,6 @@ export default {
 .me {
   margin-top: 80px;
 }
-/* .hex-photo {
-  height: 220px;
-  width: 260px;
-  position: relative;
-  margin: auto;
-} */
-/* .hex-photo .photo {
-  background-color: red;
-  width: 100%;
-  height: 100%;
-  background-image: url("~/static/profile-pic.jpg");
-  background-size: cover;
-  background-position: center;
-  z-index: 999999999999;
-  position: absolute;
-} */
-/* .hex-photo::after {
-  content: "";
-  width: 100%;
-  border-top: 110px solid #04c2c9;
-  border-left: 55px solid transparent;
-  border-right: 55px solid transparent;
-  position: absolute;
-  top: 110px;
-  left: 0px;
-}
-.hex-photo::before {
-  width: 100%;
-  content: "";
-  position: absolute;
-  left: 0;
-  border-bottom: 110px solid #04c2c9;
-  border-left: 55px solid transparent;
-  border-right: 55px solid transparent;
-} */
 .me .photo-title {
   margin-top: 16px;
   font-size: 24px;
@@ -170,9 +134,5 @@ export default {
   width: 75%;
   margin: 16px auto 0;
   color: #616161;
-}
-.photo-desc .special {
-  color: #009ada;
-  cursor: pointer;
 }
 </style>

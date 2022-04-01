@@ -2,7 +2,7 @@
   <div
     data-aos="fade-right"
     :data-aos-delay="blog.delay"
-    class="col-lg-3 col-sm-6 col-11 mx-auto blog"
+    class="col-lg-3 col-sm-6 col-11 mx-auto blog mt-2"
   >
     <nuxt-link :to="blog.link">
       <div class="img">
